@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "лучшие-практики-ооп-16-2"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Onishchenko <kostik80_80@mail.ru>"]
+readme = "README.md"
+packages = [{include = "лучшие_практики_ооп_16"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
